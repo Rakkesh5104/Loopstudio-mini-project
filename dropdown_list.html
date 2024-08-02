@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chumma{
+        list-style: none;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;        
+    }
+    .headlogo{
+        height: 40px;
+        margin-top: 30px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    .headlogo svg{
+        height: 30px;
+        width: 30px;
+        color: white;
+    }
+    .headlogo h2{
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .ham2{
+        text-decoration: none;
+    }
+    .lx .dropdown{
+        list-style: none;
+        margin-top: 50px;
+    }
+    .dropdown li{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .dropdown li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .dropdown li a:hover{
+        border-bottom: 2px solid white;
+        border-radius: 3px;
+    }
+    .nav1 .ham2:hover > .lx{
+        display: block;
+        background-color: aquamarine;
+        
+    }
+    .third svg:focus .chumma{
+        display: none;
+    }
+    .third:focus.chumma{
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+        <div class="headlogo">
+        <h2>loopstudios</h2>
+        <a class="third" href="#"><svg class="xsym"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+          </svg> </a>
+          <ul class="dropdown">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </div>
+</body>
+</html>
